@@ -1,0 +1,231 @@
+body {
+    color: #1F2B11;
+    font-family: 'Oswald', sans-serif;
+    min-width: 320px;
+}
+
+header {
+   
+    height: 30px;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.navLink {
+    text-decoration: none;
+}
+
+span {
+    padding: 0px 5px;
+    font-size: 0.8em;
+}
+
+header h2 {
+    font-size: 2.0em;
+}
+
+h2 {
+    color: #1F2B11;
+}
+
+.logon {
+    display: block;
+    position: relative;
+    text-align: right;
+    color: rgb(250, 250, 250);
+    top: -20px;
+    padding: 0px 36px;
+    
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    padding: 0px 20px;
+    height: 36px;
+}
+
+.logon img {
+    margin: 0px 5px;
+}
+
+footer {
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+small {
+    font-size: 0.75em;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+main img {
+    cursor: zoom-in;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    min-width: 320px;
+    max-width: 960px;
+}
+
+.allCenter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    min-width: 320px;
+    max-width: 960px;
+    min-height: 70vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px; 
+    padding: 10px;
+}
+
+article {  
+     margin: 10px 0px;
+    /* box-shadow: 0 0 3px 3px #1F2B11;*/
+
+}
+
+.smallPhoto {
+    width: 300px;
+}
+
+article section {
+
+}
+
+article footer {
+    background-color: #334321;
+    height: 28px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.test {
+    background-color: #222E14;
+    background-color: #212C15;
+    background-color: #1F2B11;
+    background-color: #33431F;
+    background-color: #334321;
+
+}
+
+a {
+    color: #1F2B11;
+}
+
+.bigImage {
+    display: column;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.bigImage img {
+    cursor: zoom-in;
+    border-radius: 5px 5px 5px 5px;
+}
+
+aside {
+    
+    height: 30px;
+    /*background-color: #334321;*/
+    /*border-top-style: dashed;
+    border-width: 2px;*/
+    border-color: #334321;
+}
+
+.LoadButton {   
+    
+}
+
+.newLoad {
+    color: #334321;
+    text-align: center;
+    min-width: 100vw;
+    
+
+}
+
+.backSection {
+    padding: 10px 0px 0px 40px;
+}
+
+.backImg {
+    background-image: url(../img/photo2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%; 
+}
+
+
+.registration {
+    width: 280px;
+    height: 200px;
+    /*background-color: #1F2B11;*/
+    color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+a.glo{
+    color:#334321;
+    padding: 10px 20px;
+    width:140px;
+    text-decoration:none;
+    text-align:center;
+    margin:20px auto;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#334321 50%,#334321);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 18px tahoma;
+    border: 1px solid #334321;
+   }
+   a.glo:hover {
+   background-position: 0 0;
+   color:#fff;
+   }
+
+   
+.likeButton{
+    width: 16px;
+    height: 16px;
+    background: center / contain no-repeat url(../img/like.png) ;
+    border: none;
+
+}   
+
+.likeButton2{
+    width: 16px;
+    height: 16px;
+    background: center / contain no-repeat url(../img/like2.png) ;
+    border: none;
+
+}   
